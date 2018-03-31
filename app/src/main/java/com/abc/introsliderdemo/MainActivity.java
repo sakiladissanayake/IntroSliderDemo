@@ -7,6 +7,7 @@ import android.view.View;
 
     public class MainActivity extends AppCompatActivity {
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,4 +19,4 @@ import android.view.View;
         startActivity(new Intent(this,WelcomeActivity.class));
         finish();
     }
-}
+    }
