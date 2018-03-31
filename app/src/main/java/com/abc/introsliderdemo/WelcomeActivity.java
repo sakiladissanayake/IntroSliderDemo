@@ -130,6 +130,7 @@ public class WelcomeActivity extends AppCompatActivity implements View.OnClickLi
         if(next_slide < layouts.length){
             mPager.setCurrentItem(next_slide);
         }else{
+            new com.abc.introsliderdemo.PreferenceManager(this).writePreference();
             loadHome();
         }
     }
